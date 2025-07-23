@@ -1,0 +1,82 @@
+h1{
+  margin-bottom: 20px;
+  font-size: 40px;
+  border: 5px solid #444;
+  border-radius:40px;
+  border-color: #121212 ;
+}
+li:hover{
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+body{
+  background-image: url(images/dodge.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #121212;
+  color:white;
+  font-family:Arial, Sans-Serif ;
+  margin: 0;
+  padding: 20px;
+  font-family: 'Orbitron', sans-serif;
+
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  li {
+    font-size: 18px;
+  }
+}
+#search{
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border: none;
+}
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.car-item {
+  background-color: #1e1e1e;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  transition: transform 0.2s
+  transition: all 0.3s ease;
+}
+
+
+
+.car-item:hover {
+  transform: scale(1.05);
+}
+
+.car-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.car-item p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.car-item {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.car-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
